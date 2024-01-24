@@ -52,3 +52,8 @@ git checkout tag/clase_1
 
 ! Ver ficheros y carpetas ocultos con command + shift + .
 
+RAMAS RAMAS RAMAS RAMAS
+
+git branch nombre_rama
+
+git switch nombre_rama
