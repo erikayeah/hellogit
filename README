@@ -57,3 +57,7 @@ RAMAS RAMAS RAMAS RAMAS
 git branch nombre_rama
 
 git switch nombre_rama
+
+COMO REFLEJAR DATOS DE UNA RAMA EN MI RAMA
+
+git merge main (traer de la rama main)
