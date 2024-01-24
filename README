@@ -1,0 +1,54 @@
+indicar que quiero inicializar un contexto de version de controles aqui.
+En terminal:
+
+git init = inicia el proyecto
+
+git status = ver que esta pasando con los ficheros
+
+git add = añadir los ficheros para ser fotografiados. Area Stage
+
+git commit -m 'comentario' = lanzar la fotografia del codigo.
+
+Ver si la foto se hizo 
+= git log || git log --graph || git log --graph --pretty=oneline || etc
+salgo con tecla q
+
+git checkout => Para desplazarnos entre commits ((CREO que es el nuevo head, creo))
+
+git checkout + hash del cambio = volver a esa fotografia del proyecto entero.
+
+!! depende el hash que ponga, voy para atras o adelante AAHH. El checkout para moverme entre hash. Cuidado de guardar el ultimo hash q dsp de esto en el log no sale, pero si esta en el historial de temrinal.
+
+git reset  = volver a la ultima fotografia del fichero.
+
+Podemos crear nuestros propios alias
+
+
+git config --global alias.graph 'git log --graph'
+
+
+Comparar diferencias entre ficheros con cambios y su version anterior
+
+git diff
+
+=> Esto es lo que se ve:
+
+--- a/hellogit2.js = --- es que algo desaparecio
++++ b/hellogit2.js = +++ es que algo aparecio
+@@ -1 +1 @@ = desaparece una linea  y aparece una linea nueva.
+-console.log('Hello git 2'); = Detalle de lo desaparecido
+\ No newline at end of file
++console.log('New hello git'); = Detalle de lo agregado
+\ No newline at end of file
+
+
+git reflog
+Para ver todas las interacciones que hicimos, incluso de cosas reseteadas o eliminadas. 
+
+
+git tag nombre_elegido => Como guardar una partida hasta este punto, es la referencia.
+
+git checkout tag/clase_1
+
+! Ver ficheros y carpetas ocultos con command + shift + .
+
