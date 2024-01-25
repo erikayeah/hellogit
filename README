@@ -24,7 +24,7 @@ git reset  = volver a la ultima fotografia del fichero.
 Podemos crear nuestros propios alias
 
 
-git config --global alias.graph 'git log --graph'
+git config --global alias.graph 'git log --graph --oneline'
 
 
 Comparar diferencias entre ficheros con cambios y su version anterior
@@ -52,3 +52,12 @@ git checkout tag/clase_1
 
 ! Ver ficheros y carpetas ocultos con command + shift + .
 
+RAMAS RAMAS RAMAS RAMAS
+
+git branch nombre_rama
+
+git switch nombre_rama
+
+COMO REFLEJAR DATOS DE UNA RAMA EN MI RAMA
+
+git merge main (traer de la rama main)
