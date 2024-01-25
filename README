@@ -70,3 +70,8 @@ git stash list => Para ver los pendientes
 git stash pop => Traeme lo guardado para seguir trabajando.
 
 git stash drop => Me devuelve al estado inicial del stash si lo que cambie no me gusta.
+
+
+TAMBIEN PARA VER CONFLICTOS Y COMPARAR RAMAS
+
+git diff nombreRama
