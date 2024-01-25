@@ -83,5 +83,5 @@ git branch -d nombreRama
 VER TODOS LOS MOVIMIENTOS
 Eliminar en log principales y flujo del proyecto, pero sigue estando. Esscrito a fuego digamos, y para verlas, necesito 
 
-git relog 
+git reflog 
 
