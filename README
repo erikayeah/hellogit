@@ -61,3 +61,10 @@ git switch nombre_rama
 COMO REFLEJAR DATOS DE UNA RAMA EN MI RAMA
 
 git merge main (traer de la rama main)
+
+
+git stash => Guarda temporalmente en local algo, sin comitearlo, para q sigas trabajando dsp de volver a la rama. Cuando tengas q slair de urgencia y no queres comitear trabajo no terminado.
+
+git stash list => Para ver los pendientes
+
+git stash pop => Traeme lo guardado para seguir trabajando.
