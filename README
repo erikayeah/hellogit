@@ -73,5 +73,15 @@ git stash drop => Me devuelve al estado inicial del stash si lo que cambie no me
 
 
 TAMBIEN PARA VER CONFLICTOS Y COMPARAR RAMAS
-
 git diff nombreRama
+
+
+ELIMINAR RAMAS QUE YA NO SE VAN A TOCAR. Ramas representan trabajos temporales.
+
+git branch -d nombreRama
+
+VER TODOS LOS MOVIMIENTOS
+Eliminar en log principales y flujo del proyecto, pero sigue estando. Esscrito a fuego digamos, y para verlas, necesito 
+
+git relog 
+
