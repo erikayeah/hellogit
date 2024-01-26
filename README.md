@@ -99,3 +99,9 @@ git push -u origin main
 git remote add origin https://github.com/erikayeah/hellogit.git
 git branch -M main
 git push -u origin main
+
+
+
+git pull => Descarga y fusiona automáticamente los cambios del repositorio remoto en tu rama local.
+
+git fetch => Descarga los cambios del repositorio remoto a tu repositorio local sin fusionar automáticamente los cambios en tu rama local.
